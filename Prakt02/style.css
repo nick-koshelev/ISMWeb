@@ -1,0 +1,184 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+header {
+    background-color: #e9e9e9;
+    line-height: 45px;
+    height: 50px;
+    text-decoration: none;
+}
+.left{
+    float: left;
+}
+.left a{
+    margin-left: 20px;
+    display: inline-block;
+    horiz-align: center;
+}
+.right{
+    float: right;
+}
+.right a, .right button{
+    margin-right: 20px;
+}
+header a{
+    text-decoration: none;
+}
+header button{
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    width: 70px;
+    height: 30px
+}
+main{
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-top: 20px;
+}
+section.over{
+    overflow: hidden;
+}
+.first{
+    width: 50%;
+    float: left;
+}
+.first h1{
+    font-size: 60px;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.first p{
+    color: #a9a9a9;
+}
+.first button{
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    height: 30px;
+}
+.take{
+    width: 90px;
+}
+.start{
+    width: 120px;
+}
+.second{
+    width: 20%;
+    height: 250px;
+    background-color: #d3d3d3;
+    float: left;
+    margin: 10px;
+    margin-left: 4%;
+}
+.second p{
+    text-align: center;
+    margin-top: 40%;
+    color: gray;
+}
+.third{
+    width: 20%;
+    height: 250px;
+    background-color: #e9e9e9;
+    float: left;
+    margin: 10px;
+    margin-left: 4%;
+    border: 1px solid #a9a9a9;
+}
+.third form{
+    margin: 30px;
+}
+.third label{
+    margin-bottom: 10px;
+}
+.third input{
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+.third input[type="submit"]{
+    font-size: 15px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    width: 120px;
+    height: 30px
+}
+section.main{
+    margin-top: 10px;
+    padding-top: 5px;
+    border-top: 2px solid #e9e9e9;
+}
+main table{
+    border-collapse: separate;
+    border-spacing: 20px 10px;
+    width: 100%;
+}
+main td{
+    border: 2px solid #e9e9e9;
+}
+.block{
+    background-color: darkgrey;
+    width: 90%;
+    height: 300px;
+    margin-left: 5%;
+}
+td > p{
+    margin: 20px;
+}
+.text p{
+    margin-left: 10px;
+    font-size: 20px;
+}
+.text p + p{
+    color: #a9a9a9;
+    font-size: 17px;
+}
+.main button{
+    width: 90%;
+    margin-left: 5%;
+    font-size: 15px;
+    padding: 5px;
+    background-color: white;
+    border: 1px solid dodgerblue;
+}
+.under{
+    margin-top: 20px;
+    background-color: #e9e9e9;
+    border: 1px solid #a9a9a9;
+    overflow: hidden;
+}
+ul.main_ul{
+    float: left;
+}
+ul.no_main_ul{
+    padding: 5px;
+}
+ul.no_main_ul li{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+li a{
+    text-decoration: none;
+}
+ul.main_ul + ul.main_ul{
+    margin-left: 250px;
+}
+footer div{
+    height: 100px;
+    width: 80%;
+    margin-left: 10%;
+}
+footer a{
+    text-decoration: none;
+    margin-right: 30px;
+    line-height: 100px;
+}
+footer p{
+    float: right;
+    line-height: 100px;
+    margin: 0;
+    margin-right: 40px;
+}
